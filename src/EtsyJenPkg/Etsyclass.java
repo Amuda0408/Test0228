@@ -19,7 +19,7 @@ public class Etsyclass {
 		
 		//launched etsy site
 		driver.get("https://www.etsy.com/");		
-		System.out.println("User enters etsy.com in the url tsting"); 
+		System.out.println("User enters etsy.com in the url"); 
 		
 		//click on Sign-in button
 		driver.findElement(By.xpath("//*[@id='gnav-header-inner']/div[4]/nav/ul/li[1]/button")).click();
